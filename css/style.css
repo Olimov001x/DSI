@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+ max-width: 1145px;
+ margin: 0 auto;
+ padding: 0 10px;
+}
+.bg-nav{
+    padding: 22px 0;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.logo{
+    width: 119px;
+    height: 56px;
+}
+.logo img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+.list li{
+    display: inline-block;
+    position: relative;
+
+}
+.list li:not(:last-child){
+    margin-right: 50px;
+}
+.select-list{
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+.list li a{
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(31, 46, 53, 0.8);
+}
+.list li ::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #EE4248;
+}
+.icons{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.icons svg{
+    cursor: pointer;
+    transition: .3s;
+}
+.icons svg:hover path{
+   fill: #EE4248;
+}
+.hero{
+    padding-top: 110px;
+    padding-bottom: 160px;
+}
+.hero-text h1{
+    width: 545px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 133.69%;
+    color: #1F2E35;
+    
+}
+.hero-text h1 span{
+    font-weight: 700;
+    color: #EE4248;
+}
+.hero-text p{
+    font-size: 20px;
+    line-height: 29px;
+    color: #30444E;
+    margin: 24px 0;
+}
+.site-btn{
+    background: #EE4248;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    padding: 12px 32px;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: none;
+    transition: .5s;
+}
+.site-btn:hover{
+    background: transparent;
+    color: #000;
+}
+.hero-img{
+    width: 563px;
+    height: 382px;
+}
+.hero-img img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+.product{
+    background:#F6F6F6;
+}
+.product-img{
+    width: 453px;
+    height: 472px;
+    transform: translateY(-42px);
+}
+.product-img img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+.product-info{
+    width: 520px ;
+
+}
+.product-info h2{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 133.69%;
+    color: #1F2E35;
+    margin-bottom: 24px;
+}
+.product-info h2 span{
+    color: #EE4248;
+    font-weight: 500;
+}
+.product-info p{
+    font-size: 18px;
+    line-height: 150%;
+    color: #30444E;
+}
+.product-info p span{
+    color: #EE4248;
+}
+.pi1{
+    margin-bottom: 24px;
+}
+.service{
+    padding-top: 96px;
+    padding-bottom: 87px;
+}
+.service-title{
+    text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 133.69%;
+    text-align: center;
+    color: #1F2E35;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 363px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; 
+    padding: 24px 10px 0 24px;
+
+}
+.card img{
+    width: 100px;
+    height: 100px;
+}
+.card h3{
+    margin: 15px 0;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 133.69%;
+    color: #EE4248;
+}
+.card p{
+    font-size: 18px;
+    line-height: 150%;
+    color: #30444E;
+    margin-bottom: 15px;
+}
+.contact{
+    margin-bottom: 13px;
+}
+.contact-card{
+    display: flex;
+    gap: 47px;
+    align-items: flex-end;
+}
+.contact-location img{
+    width: 119px;
+    height: 56px;
+    margin-bottom: 10px;
+}
+.contact-location h4{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #263238;
+    margin-bottom: 8px;
+}
+.contact-location p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 149.19%;
+    color: #263238;
+}
+.contact-info h3{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    color: #263238;
+}
+.contact-info p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 149.19%;
+    color: #263238;
+}
+.footer{
+    background: #EE4248;
+    padding: 22px 0;
+    text-align: center;
+}
+.footer-title{
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+
+   
+   
